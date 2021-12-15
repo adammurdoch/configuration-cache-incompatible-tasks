@@ -22,7 +22,7 @@ You can also run:
 
 > ./gradlew accidentallyBroken
 
-This will fail the build, as the task is not marked as incompatible.
+This will fail the build, because the task is not marked as incompatible should have no problems associated with it.
 
 Incompatible tasks can also be used with the `--configuration-cache-problems=warn` option, to allow users to experiment
 with the task's behaviour when it is loaded from the cache and to check for further problems. When this option is 
