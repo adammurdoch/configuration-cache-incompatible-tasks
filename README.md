@@ -1,7 +1,7 @@
 # Configuration cache incompatible tasks
 
-This repository contains a Gradle build that shows how tasks from a plugin can be marked as incompatible with 
-the configuration cache.
+This repository contains a Gradle build that demonstrates the APIs that can be used to mark tasks from a plugin 
+as incompatible with the configuration cache.
 
 The build uses a plugin that defines 3 tasks that are incompatible with the configuration cache:
 
@@ -9,6 +9,8 @@ The build uses a plugin that defines 3 tasks that are incompatible with the conf
 - `accidentallyBroken` is not marked as incompatible.
 
 The build script `build.gradle.kts` contains some examples of using the API.
+The Javadoc for the method can be found [here](https://docs.gradle.org/nightly/javadoc/org/gradle/api/Task.html#notCompatibleWithConfigurationCache-java.lang.String-)
+
 
 To try it out run:
 
